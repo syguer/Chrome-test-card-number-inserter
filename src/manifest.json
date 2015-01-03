@@ -1,0 +1,10 @@
+{
+  "name": "TestCardNumberInserter",
+  "description": "Insert test card number from context menu",
+  "version": "0.1",
+  "permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
